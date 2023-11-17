@@ -2,35 +2,60 @@ body {
     font-family: sans-serif;
 }
 
+header {
+    border: 5px solid darkblue ; border-radius: 4%; 
+}
+
+.det {
+    border: 1px solid darkblue; background-color: darkblue ; border-radius: 15%; color: white; 
+}
+
+header b {
+    color: darkblue;
+}
+header a {
+    text-decoration: none;
+    padding: 5px;
+    margin: 5px;
+}
+
 h1 {
+    color: darkorchid; text-align: center;
+}
+
+footer {
+    text-align: center; 
+    background-color: darkorange;
+    border-radius: 20%;
+}
+
+.con {
+color: white;
+}
+
+.navi {
+    border: 2px solid darkblue;
+    border-radius: 10%;
+    padding: 1px;
+    margin: 1px;
+    color: white;
+    background-color: darkblue;
+    text-decoration: none;
+}
+
+h2 {
     text-align: center;
-    font-size: 60px;
+    background-color: darkorchid;
+}
+p.products {
+    border: 5px solid darkviolet;
+    padding: 10px;
+    border-radius: 10%;
+    color: darkblue;
 }
 
-h2{
-    font-size: 40px;
-    background-color: peru;
+.pas {
+    color: darkorchid; font-size: 20px;
 }
 
-a {
-    color: black;
-    font-size: 20px;
-}
 
-p, img {
-    border: 3px solid peru;
-}
-
-p, table {
-    font-size: 20px;
-}
-
-table{
-    background-color: lightyellow;
-    text-align: center;
-    border-collapse: collapse;
-}
-
-td{
-    border: 1px solid brown;
-}
